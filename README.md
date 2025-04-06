@@ -6,10 +6,10 @@ Note: This library is tested on ESP32 Dev kit.
 
 Pin Connections:
 
-   ESP32   |   RPLidar
-     16    |   TX
-     17    |   RX
-     4     |   pwmPin  
+   ESP32      RPLidar
+     16       TX
+     17       RX
+     4        pwmPin  
 
 1. An object of type uRosLidar needs to be created. It will take 4 arguments, baudRate, rxPin, txPin,
    pwmPin, pwmChannel. Ex: uRosLidar uRos_Lidar(115200, 16, 17, 4, 0).
