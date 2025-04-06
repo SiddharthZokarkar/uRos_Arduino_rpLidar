@@ -5,7 +5,6 @@ Usage:
 Note: This library is tested on ESP32 Dev kit.
 
 Pin Connections:
-![images](https://github.com/user-attachments/assets/39a79873-d5c3-4c49-9d84-b7cbd6e36b69)
 
    ESP32   |   RPLidar
      16    |   TX
