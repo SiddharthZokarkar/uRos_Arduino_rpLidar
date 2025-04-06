@@ -1,15 +1,18 @@
 # uRos_Arduino_rpLidar
 Arduino Library for integrating rpLidar with micro-ROS 
 
+ Tested With
+✔️ ESP32 Dev Kit v1
+✔️ rpLidar A1 (via UART + PWM)
+
 Usage:
-Note: This library is tested on ESP32 Dev kit.
+Example Pin Connections:
 
-Pin Connections:
-
-   ESP32      RPLidar
-     16       TX
-     17       RX
-     4        pwmPin  
+| ESP32 Pin | rpLidar Pin |
+|-----------|-------------|
+| 16        | TX          |
+| 17        | RX          |
+| 4         | PWM         |
 
 1. An object of type uRosLidar needs to be created. It will take 4 arguments, baudRate, rxPin, txPin,
    pwmPin, pwmChannel. Ex: uRosLidar uRos_Lidar(115200, 16, 17, 4, 0).
